@@ -27,9 +27,9 @@ body {
   margin: 1.7rem auto;
 }
 
-.circle-svg {
-  height: 10px;
-  padding: 1rem;
+.fa-circle {
+  font-size: 10px;
+  color: rgb(140, 198, 62);
 }
 
 .left-nav {
@@ -69,6 +69,13 @@ body {
   font-weight: 800;
   font-size: 0.8rem;
   margin: 0rem 0 1.5rem 4rem;
+}
+
+.top-section-1of2-content {
+  width: 100%%;
+  height: 11.45%;
+  padding: 2% 0% 4% 4%;
+  background-color: #fff;
 }
 
 .top-section-1of2-content footer p {
@@ -142,13 +149,6 @@ body {
   color: rgb(79, 186, 251);
 }
 
-.top-section-1of2-content {
-  width: 92%;
-  height: 11.45%;
-  padding: 2% 4% 4% 4%;
-  background-color: #fff;
-}
-
 .ts-1of2-title {
   font-size: 1.4rem;
   width: 30rem;
@@ -190,17 +190,28 @@ body {
 
 .ts-1of2-left {
   display: inline-block;
-  margin: 0 40vw 10vh 0;
+  margin: 0 0 5.5rem 0;
 }
 
 .ts-1of2-right {
   display: inline-block;
+  width: 19rem;
+  float: right;
 }
 
 .ts-buttons {
   background-color: #fff;
   border-radius: 20px;
-  padding: 0 2%;
+  padding: 3% 4%;
+  color: rgb(155,	163, 175);
+  margin-right: 3%;
+}
+
+.ts-buttons-1 {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 3% 6%;
+  margin-right: 3%;
 }
 
 .ts-buttons:hover {
@@ -221,7 +232,6 @@ body {
 
 .svg-box {
   background-color: #edf2f6;
-  margin-top: 0.8rem;
   width: 50%;
   display: inline-block;
 }
@@ -229,7 +239,7 @@ body {
 .circle-graphs {
   display: flex;
   flex-direction: row;
-  width: 45%;
+  width: 90%;
 }
 
 .circular-chart {
@@ -282,13 +292,15 @@ body {
   border-radius: 20px;
   padding: 0.7rem;
   background-color: #fff;
+  margin: 8% auto;
 }
 
 .applicants-button {
   border-radius: 20px;
   padding: 0.7rem;
-  transform: translate(38rem, -8rem);
   background-color: #fff;
+  margin: 8% auto;
+  display: block;
 }
 
 .svg-container {
@@ -297,7 +309,6 @@ body {
 }
 
 .more-button {
-  transform: translate(4rem, 0.8rem);
   border-radius: 50%;
 }
 
