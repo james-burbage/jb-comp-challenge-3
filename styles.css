@@ -567,13 +567,16 @@ h5 i {
     width: 49rem;
   }
 
-
   .social {
     font-size: 2em; 
   }
 
   .social i {
     padding-right: 15rem;
+  }
+
+  .ts-1of2-left {
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -611,7 +614,7 @@ h5 i {
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 750px){
   .site-links {
     display: none;
   }
