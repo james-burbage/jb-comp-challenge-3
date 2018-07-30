@@ -42,9 +42,12 @@ body {
   width: 13rem;
 }
 
-.fas,
-.far {
+.fas, .far {
   padding-right: 3%;
+}
+
+.edit-icon {
+  padding: 0;
 }
 
 .nav-section {
@@ -228,9 +231,10 @@ body {
   border-radius: 20px;
   padding: 3% 6%;
   margin-right: 3%;
+  color: rgb(139, 150, 167);
 }
 
-.ts-button-1:hover {
+.ts-buttons-1:hover {
   cursor: pointer;
   color: rgb(79, 186, 251);
 }
@@ -320,6 +324,11 @@ body {
   font-weight: bold;
 }
 
+.totals-button:hover {
+  cursor: pointer;
+  color: rgb(139, 150, 167);
+}
+
 .applicants-button {
   border-radius: 30px;
   padding: 0.7rem 2rem;
@@ -328,6 +337,11 @@ body {
   display: block;
   color: rgb(106 118 135);
   font-weight: bold;
+}
+
+.applicants-button:hover {
+  cursor: pointer;
+  color: rgb(139, 150, 167);
 }
 
 .svg-container {
@@ -342,7 +356,7 @@ body {
 .info-main {
   background-color: rgb(255, 255, 255);
   width: 43rem;
-  margin: 3rem auto;
+  margin: 3rem 0 6rem 5rem;
   display: inline-block;
 }
 
@@ -406,6 +420,10 @@ article.info-section {
   font-weight: bold;
 }
 
+.info-descrip:hover {
+  cursor: pointer;
+}
+
 .info-info {
   text-align: left;
   display: inline-block;
@@ -414,6 +432,10 @@ article.info-section {
   height: 100%;
   width: 59%;
   color: rgb(111 125 149);
+}
+
+.info-info:hover {
+  cursor: pointer;
 }
 
 .keanu-info {
@@ -432,10 +454,15 @@ article.info-section {
 .edit-button {
   display: inline-block;
   background-color: rgb(124 139 166);
-  padding: 0.8em 1.8em;
+  padding: 0.9em 2em;
   border: none;
   color: white;
   margin-left: 10px;
+}
+
+.edit-button:hover {
+  cursor: pointer;
+  filter: brightness(110%);
 }
 
 .keanu-img {
@@ -560,6 +587,9 @@ h5 i {
   .left-hr {
     width: 30%;
     margin: 3px 5px 0 18%;
+  }
+  .info-main {
+  margin: auto;
   }
   .right-hr {
     width: 30%;
