@@ -42,7 +42,8 @@ body {
   width: 13rem;
 }
 
-.fas, .far {
+.fas,
+.far {
   padding-right: 3%;
 }
 
