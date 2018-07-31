@@ -635,13 +635,90 @@ h5 i {
 }
 
 @media only screen and (max-width: 750px) {
-  .site-links {
-    display: none;
+  h5 {
+    font-size: 3em;
   }
   .ts-1of2-right {
     float: none;
   }
   .ts-1of2-left {
     margin-bottom: 1.5rem;
+  }
+  .top-boxes {
+    width: 6em;
+  }
+  .menu-svg {
+    height: 40px;
+    margin: 1.2rem auto;
+  }
+  .ts-1of2-title {
+    font-size: 2.4rem;
+    width: 45rem;
+  }
+  .ts-1of2-location {
+    font-size: 1.95rem;
+  }
+  .ts-1of2-preview {
+    font-size: 1.95rem;
+  }
+  .fas {
+    font-size: 3em;
+  }
+  .fa-map-marker-alt {
+    font-size: 1em;
+  }
+  .ts-1of2-right {
+    width: 100%;
+  }
+  .ts-buttons-1 {
+    font-size: 2em;
+    border-radius: 55px;
+    padding: 3% 5%;
+  }
+  .ts-buttons {
+    border-radius: 75px;
+    padding: 3% 3.5%;
+  }
+  .fa-circle {
+    font-size: 30px;
+  }
+  .arrow-button {
+    padding: 0.3rem 0.7rem;
+  }
+  .top-search-bar, .totals-button, .applicants-button, h2, .info-descrip, .info-info, .edit-button {
+    font-size: 2em;
+  }
+  .info-descrip {
+    width: 8em;
+  }
+  .fa-pen,
+  .fa-globe,
+  .fa-window-maximize,
+  .site-links,
+  .fa-paper-plane {
+    display: none;
+  }
+  .keanu-info {
+      padding: 1.9rem 1rem
+  }
+  .keanu-img {
+    display: none;
+  }
+  .info-text {
+    margin-left: 17px;
+    font-size: 2em;
+  }
+  .link-input {
+    font-size: 2em;
+  }
+  .copy-button {
+    font-size: 2rem;
+    padding: 5px 0;
+  }
+  .social i {
+    padding-right: 12rem;
+  }
+  .social {
+    font-size: 3em;
   }
 }
